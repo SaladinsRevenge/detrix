@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 
-.container{
+.container {
   width: 80%;
   margin: auto;
   overflow: hidden;
@@ -22,7 +22,7 @@ ul {
 }
 .button1 {
   height: 38px;
-  background:	#32CD32;
+  background: #32cd32;
   border: 0;
   padding: 0 20px;
   color: #ffffff;
@@ -41,7 +41,7 @@ header {
   color: #ffffff;
   padding-top: 10px;
   min-height: 70px;
-  border-bottom: #32CD32 3px solid;
+  border-bottom: #32cd32 3px solid;
 }
 header a {
   color: #ffffff;
@@ -54,7 +54,7 @@ header li {
   padding: 0 20px 0 20px;
 }
 header #branding {
-  float:left;
+  float: left;
 }
 
 header #branding h1 {
@@ -62,13 +62,14 @@ header #branding h1 {
 }
 header nav {
   float: right;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
-header .highlight, header .current a {
-  color: 	#32CD32;
+header .highlight,
+header .current a {
+  color: #32cd32;
   font-weight: bold;
 }
-header a:hover{
+header a:hover {
   color: #cccccc;
   font-weight: bold;
 }
@@ -77,13 +78,13 @@ header a:hover{
 
 #showcase {
   min-height: 400px;
-  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
   text-align: center;
-  color: #ffffff; 
+  color: #ffffff;
 }
 #showcase h1 {
   margin-top: 100px;
-  font-size: 55px;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 #showcase p {
@@ -105,7 +106,7 @@ header a:hover{
   margin-top: 15px;
 }
 
-#newsletter input[type="email"]{
+#newsletter input[type='email'] {
   padding: 4px;
   height: 25px;
   width: 250px;
@@ -125,7 +126,7 @@ header a:hover{
 }
 
 #boxes .box img {
-  width: 90px
+  width: 90px;
 }
 
 /* Main Column */
@@ -163,13 +164,13 @@ ul#services li {
 footer {
   padding: 20px;
   color: #ffffff;
-  background-color: #32CD32;
+  background-color: #32cd32;
   text-align: center;
 }
 
 /* Media Queries */
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   header #branding,
   header nav,
   header nav li,
@@ -193,7 +194,7 @@ footer {
     display: block;
     width: 100%;
   }
-  #newsletter form input[type="email"] {
+  #newsletter form input[type='email'] {
     width: 100%;
     margin-bottom: 5px;
   }
