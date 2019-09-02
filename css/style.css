@@ -174,7 +174,6 @@ footer {
   color: #ffffff;
   background-color: #32cd32;
   text-align: center;
-  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
@@ -213,8 +212,5 @@ footer {
   #newsletter form input[type='email'] {
     width: 100%;
     margin-bottom: 1rem;
-  }
-  footer {
-    position: sticky;
   }
 }
